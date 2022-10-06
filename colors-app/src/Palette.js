@@ -9,7 +9,7 @@ class Palette extends Component {
         return (
             <div>
                 <div className='Palette'>
-                    <h1>Palettes</h1>
+                    {/* <h1>Palettes</h1> */}
                     {/* Navbar goes here */}
                     <div className='Palette-colors'>{colorBoxes}</div>
                     {/* footer */}
