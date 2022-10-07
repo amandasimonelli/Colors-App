@@ -8,3 +8,4 @@ Color Picker application built on [React](https://reactjs.org/).
 
 ## Features
 - Copy content to clipboard.
+- Copy Overlay Animation.
