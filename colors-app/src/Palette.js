@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import ColorBox from './ColorBox';
+import {generatePalette} from "./colorHelpers.js"
+import seedColors from './seedColors';
 
 class Palette extends Component {
     render() {
+    console.log(generatePalette(seedColors[4]));
+
         const colorBoxes = this.props.colors.map(color => (
             <ColorBox background={color.color} name={color.name} />
         ))
