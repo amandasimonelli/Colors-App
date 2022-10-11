@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import ColorBox from './ColorBox';
-import {generatePalette} from "./colorHelpers.js"
-import seedColors from './seedColors';
+// import {generatePalette} from "./colorHelpers.js"
+// import seedColors from './seedColors';
+import "./Palette.css";
 
 class Palette extends Component {
     render() {
-    console.log(generatePalette(seedColors[4]));
-
-        const colorBoxes = this.props.colors.map(color => (
-            <ColorBox background={color.color} name={color.name} />
+        const colorBoxes = this.props.palette.colors[300].map(color => (
+            <ColorBox background={color.hex} name={color.name} />
         ))
         return (
             <div>
