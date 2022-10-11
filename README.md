@@ -7,5 +7,6 @@ Color Picker application built on [React](https://reactjs.org/).
 
 
 ## Features
-- Copy content to clipboard.
-- Copy Overlay Animation.
+- [Copy to clipboard](https://github.com/nkbt/react-copy-to-clipboard)
+- Copy Overlay Animation
+- [RC-Slider](https://github.com/react-component/slider)
