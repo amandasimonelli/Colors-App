@@ -11,5 +11,6 @@ version 0.1.0
 ## Features
 - [Copy to Clipboard](https://github.com/nkbt/react-copy-to-clipboard)
 - "Copy" Overlay Animation
+- [Chroma JS](https://gka.github.io/chroma.js/)
 - [RC-Slider](https://github.com/react-component/slider)
 - [Material UI](https://mui.com/core/)
