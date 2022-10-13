@@ -20,7 +20,7 @@ export default class Navbar extends Component {
 
   handleFormatChange(e) {
     this.setState({ format: e.target.value, open:true });
-    this.props.handleChange(e.target.value);
+    this.props.handleFormatChange(e.target.value);
   }
 
   closeSnackbar(){
