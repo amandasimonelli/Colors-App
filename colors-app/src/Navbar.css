@@ -20,6 +20,7 @@
 .logo a {
     text-decoration: none;
     color: #252525;
+
 }
 
 /* Slider */
@@ -46,4 +47,17 @@
     outline: none !important;
     border: 2px solid #b630d4 !important;
     box-shadow: none !important;
+}
+
+.select-container {
+    margin-left: auto;
+    padding-right: 1rem;
+    border: none !important;
+}
+
+.select-container:active,
+.select-container:focus-visible,
+.select-container div:focus-visible
+{
+    outline: none !important;
 }
