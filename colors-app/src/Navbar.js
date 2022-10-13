@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
+import MenuItem from '@mui/material/MenuItem';
+import Snackbar from '@mui/material/Snackbar';
+import CloseIcon from '@mui/icons-material/Close';
 import Slider from 'rc-slider';
 import "rc-slider/assets/index.css";
 import "./Navbar.css";
